@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,22 +32,41 @@
       }
     }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700;800&family=Poly&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700;800&family=Poly&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family: 'Lexend', sans-serif; scroll-behavior: smooth; }
-    h1, h2, h3, h4 { font-family: 'Lexend', sans-serif; font-weight: 800; }
+    body {
+      font-family: 'Lexend', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: 'Lexend', sans-serif;
+      font-weight: 800;
+    }
 
     /* Hiệu ứng chớp mắt */
     @keyframes blink {
-      0%, 95%, 100% { transform: scaleY(1); }
-      97% { transform: scaleY(0.1); }
+
+      0%,
+      95%,
+      100% {
+        transform: scaleY(1);
+      }
+
+      97% {
+        transform: scaleY(0.1);
+      }
     }
 
     .eye-container {
       animation: blink 6s infinite;
       transform-origin: center;
     }
-    
+
     .glass-effect {
       background: rgba(255, 255, 255, 0.8);
       backdrop-filter: blur(12px);
@@ -54,23 +74,27 @@
     }
   </style>
 </head>
+
 <body class="bg-mv_blue-50/50 text-slate-800">
 
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-mv_blue-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
       <div class="flex items-center gap-3">
-        <div class="w-12 h-12 bg-mv_blue-900 rounded-full flex items-center justify-center text-white font-extrabold text-2xl shadow-inner">
-          <span class="text-mv_orange-500">M</span>V
+        <div class="w-14 h-12 ">
+          <img src="Mắt vui mắt khỏe.gif" alt="Mắt vui mắt khỏe" class="w-full h-full object-cover">
         </div>
         <div>
-          <span class="block font-extrabold text-2xl tracking-tighter text-mv_blue-900 uppercase">Mắt Vui Mắt Khỏe</span>
+          <span class="block font-extrabold text-2xl tracking-tighter text-mv_blue-900 uppercase">Mắt Vui Mắt
+            Khỏe</span>
           <span class="block text-xs font-medium text-mv_blue-600 tracking-wider">Sức Khỏe Là Quyền Lực</span>
         </div>
       </div>
       <nav class="hidden md:flex items-center space-x-6">
         <a href="#about" class="text-sm font-semibold text-mv_blue-900 hover:text-mv_blue-600 transition">Về dự án</a>
-        <a href="#solution" class="text-sm font-semibold text-mv_blue-900 hover:text-mv_blue-600 transition">Giải pháp</a>
-        <a href="#contact" class="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full text-white bg-mv_orange-500 hover:bg-mv_orange-600 transition shadow-sm">
+        <a href="#solution" class="text-sm font-semibold text-mv_blue-900 hover:text-mv_blue-600 transition">Giải
+          pháp</a>
+        <a href="#contact"
+          class="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full text-white bg-mv_orange-500 hover:bg-mv_orange-600 transition shadow-sm">
           Đặt lịch khám ngay
         </a>
       </nav>
@@ -80,51 +104,67 @@
   <section class="relative overflow-hidden bg-white pt-20 pb-24 md:pb-32">
     <div class="absolute -top-20 -right-20 w-80 h-80 bg-mv_orange-100 rounded-full opacity-60 blur-3xl"></div>
     <div class="absolute -bottom-20 -left-20 w-80 h-80 bg-mv_blue-100 rounded-full opacity-60 blur-3xl"></div>
-    
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
         <div class="sm:text-center md:max-w-3xl md:mx-auto lg:col-span-7 lg:text-left">
-          <span class="inline-block px-4 py-1.5 rounded-full bg-mv_blue-100 text-mv_blue-900 text-xs font-bold uppercase tracking-widest mb-6 border border-mv_blue-600/10">
+          <span
+            class="inline-block px-4 py-1.5 rounded-full bg-mv_blue-100 text-mv_blue-900 text-xs font-bold uppercase tracking-widest mb-6 border border-mv_blue-600/10">
             Du hành vào thế giới thị giác cùng Bác sĩ Tí & Thám tử Paul
           </span>
           <h1 class="text-5xl font-extrabold tracking-tighter text-mv_blue-900 sm:text-6xl md:text-7xl leading-[0.95]">
             Trả lại sự tự do cho <br>
             <span class="text-mv_orange-500 relative">đôi mắt con trẻ
-              <svg class="absolute -bottom-3 left-0 w-full h-3 text-mv_green" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+              <svg class="absolute -bottom-3 left-0 w-full h-3 text-mv_green" viewBox="0 0 100 10"
+                preserveAspectRatio="none">
+                <path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="2" fill="none" />
+              </svg>
             </span>
           </h1>
           <p class="mt-10 text-xl text-slate-700 sm:max-w-2xl sm:mx-auto lg:mx-0 leading-relaxed font-light">
-            Đừng phó mặc đôi mắt con cho những cặp kính dày cộm. Dự án "Mắt Vui Mắt Khỏe" mang đến giải pháp kiểm soát cận thị toàn diện, giải cứu <span class="font-semibold text-mv_blue-900">"Siêu máy ảnh" 576 Megapixel</span>.
+            Đừng phó mặc đôi mắt con cho những cặp kính dày cộm. Dự án "Mắt Vui Mắt Khỏe" mang đến giải pháp kiểm soát
+            cận thị toàn diện, giải cứu <span class="font-semibold text-mv_blue-900">"Siêu máy ảnh" 576
+              Megapixel</span>.
           </p>
           <div class="mt-12 flex flex-col sm:flex-row gap-5 sm:justify-center lg:justify-start">
-            <a href="#contact" class="flex items-center justify-center px-10 py-5 border border-transparent text-lg font-bold rounded-2xl text-white bg-mv_blue-900 hover:bg-mv_blue-600 shadow-lg transition-all duration-300">
+            <a href="#contact"
+              class="flex items-center justify-center px-10 py-5 border border-transparent text-lg font-bold rounded-2xl text-white bg-mv_blue-900 hover:bg-mv_blue-600 shadow-lg transition-all duration-300">
               Đăng ký tư vấn miễn phí
             </a>
-            <a href="#solution" class="flex items-center justify-center px-10 py-5 border-2 border-slate-200 text-lg font-bold rounded-2xl text-mv_blue-900 bg-white hover:border-mv_orange-500 hover:text-mv_orange-500 transition-all duration-300 group">
+            <a href="#solution"
+              class="flex items-center justify-center px-10 py-5 border-2 border-slate-200 text-lg font-bold rounded-2xl text-mv_blue-900 bg-white hover:border-mv_orange-500 hover:text-mv_orange-500 transition-all duration-300 group">
               Khám phá lộ trình
             </a>
           </div>
         </div>
-        
+
         <div class="mt-16 lg:mt-0 lg:col-span-5 relative flex justify-center items-center">
-          <div class="relative w-full max-w-sm aspect-square bg-mv_blue-900/5 rounded-full p-4 border border-mv_blue-100 flex items-center justify-center">
-            <div class="bg-white p-8 rounded-[3rem] shadow-2xl w-full h-full border border-slate-100 flex flex-col items-center justify-center relative">
-               <span class="block text-sm font-bold text-mv_blue-900 text-center mb-8 uppercase tracking-widest">Hệ Thống Thị Giác Thông Minh</span>
-               
-               <div class="flex gap-8 mb-10">
-                 <div class="eye-container w-24 h-24 bg-white rounded-full border-[6px] border-mv_blue-900 flex items-center justify-center relative overflow-hidden shadow-inner">
-                    <div class="pupil w-10 h-10 bg-mv_blue-900 rounded-full absolute flex items-center justify-center shadow-lg">
-                        <div class="w-3 h-3 bg-white rounded-full absolute top-1 left-1 opacity-80"></div>
-                    </div>
-                 </div>
-                 <div class="eye-container w-24 h-24 bg-white rounded-full border-[6px] border-mv_blue-900 flex items-center justify-center relative overflow-hidden shadow-inner">
-                    <div class="pupil w-10 h-10 bg-mv_blue-900 rounded-full absolute flex items-center justify-center shadow-lg">
-                        <div class="w-3 h-3 bg-white rounded-full absolute top-1 left-1 opacity-80"></div>
-                    </div>
-                 </div>
-               </div>
-               
-               <p class="text-xs font-extrabold text-mv_blue-600 text-center uppercase leading-tight">Du hành vào thế giới thị giác cùng<br>Paul và Bác sĩ Tí</p>
+          <div
+            class="relative w-full max-w-sm aspect-square bg-mv_blue-900/5 rounded-full p-4 border border-mv_blue-100 flex items-center justify-center">
+            <div
+              class="bg-white p-8 rounded-[3rem] shadow-2xl w-full h-full border border-slate-100 flex flex-col items-center justify-center relative">
+              <span class="block text-sm font-bold text-mv_blue-900 text-center mb-8 uppercase tracking-widest">Hệ Thống
+                Thị Giác Thông Minh</span>
+
+              <div class="flex gap-8 mb-10">
+                <div
+                  class="eye-container w-24 h-24 bg-white rounded-full border-[6px] border-mv_blue-900 flex items-center justify-center relative overflow-hidden shadow-inner">
+                  <div
+                    class="pupil w-10 h-10 bg-mv_blue-900 rounded-full absolute flex items-center justify-center shadow-lg">
+                    <div class="w-3 h-3 bg-white rounded-full absolute top-1 left-1 opacity-80"></div>
+                  </div>
+                </div>
+                <div
+                  class="eye-container w-24 h-24 bg-white rounded-full border-[6px] border-mv_blue-900 flex items-center justify-center relative overflow-hidden shadow-inner">
+                  <div
+                    class="pupil w-10 h-10 bg-mv_blue-900 rounded-full absolute flex items-center justify-center shadow-lg">
+                    <div class="w-3 h-3 bg-white rounded-full absolute top-1 left-1 opacity-80"></div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="text-xs font-extrabold text-mv_blue-600 text-center uppercase leading-tight">Du hành vào thế
+                giới thị giác cùng<br>Paul và Bác sĩ Tí</p>
             </div>
           </div>
         </div>
@@ -138,25 +178,38 @@
         <h2 class="text-4xl font-extrabold text-mv_blue-900">Tại sao con bạn cận thị?</h2>
         <div class="mt-6 h-1.5 w-32 bg-mv_green mx-auto rounded-full"></div>
         <p class="mt-8 text-xl text-slate-700 italic font-medium leading-relaxed">
-          "Đừng vội đổ lỗi cho Gen di truyền! Thủ phạm thực sự chính là <span class="font-extrabold text-mv_blue-900">“Cơn đói ánh sáng”</span>."
+          "Đừng vội đổ lỗi cho Gen di truyền! Thủ phạm thực sự chính là <span
+            class="font-extrabold text-mv_blue-900">“Cơn đói ánh sáng”</span>."
         </p>
       </div>
-      
+
       <div class="grid md:grid-cols-3 gap-10">
-        <div class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
-          <div class="w-16 h-16 bg-mv_blue-100/50 text-mv_blue-900 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">📱</div>
+        <div
+          class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
+          <div
+            class="w-16 h-16 bg-mv_blue-100/50 text-mv_blue-900 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">
+            📱</div>
           <h3 class="text-2xl font-bold mb-4 text-mv_blue-900">Màn hình & Thiết bị</h3>
-          <p class="text-slate-600 leading-relaxed font-light">Kiểm soát thời gian tiếp xúc và khoảng cách an toàn cho mắt trẻ.</p>
+          <p class="text-slate-600 leading-relaxed font-light">Kiểm soát thời gian tiếp xúc và khoảng cách an toàn cho
+            mắt trẻ.</p>
         </div>
-        <div class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
-          <div class="w-16 h-16 bg-mv_orange-100 text-mv_orange-500 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">🌙</div>
+        <div
+          class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
+          <div
+            class="w-16 h-16 bg-mv_orange-100 text-mv_orange-500 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">
+            🌙</div>
           <h3 class="text-2xl font-bold mb-4 text-mv_blue-900">Thiếu ánh sáng</h3>
-          <p class="text-slate-600 leading-relaxed font-light">Ánh sáng tự nhiên là liều thuốc giải cho quá trình kéo dài nhãn cầu.</p>
+          <p class="text-slate-600 leading-relaxed font-light">Ánh sáng tự nhiên là liều thuốc giải cho quá trình kéo
+            dài nhãn cầu.</p>
         </div>
-        <div class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
-          <div class="w-16 h-16 bg-mv_green text-mv_blue-900 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">🧠</div>
+        <div
+          class="bg-white p-10 rounded-3xl shadow-lg border border-mv_blue-100 hover:border-mv_orange-500 hover:-translate-y-1 transition-all duration-300">
+          <div
+            class="w-16 h-16 bg-mv_green text-mv_blue-900 rounded-full flex items-center justify-center mb-8 border shadow-inner text-2xl">
+            🧠</div>
           <h3 class="text-2xl font-bold mb-4 text-mv_blue-900">Thói quen sống</h3>
-          <p class="text-slate-600 leading-relaxed font-light">Xây dựng quy tắc 20-20-20 và các bài tập thị giác vui nhộn.</p>
+          <p class="text-slate-600 leading-relaxed font-light">Xây dựng quy tắc 20-20-20 và các bài tập thị giác vui
+            nhộn.</p>
         </div>
       </div>
     </div>
@@ -167,23 +220,34 @@
       <div class="bg-white rounded-[2rem] shadow-3xl overflow-hidden lg:grid lg:grid-cols-2 border border-mv_blue-100">
         <div class="p-12 lg:p-16 bg-mv_blue-50/50">
           <h2 class="text-4xl font-extrabold text-mv_blue-900 tracking-tight">Giải cứu đôi mắt ngay hôm nay!</h2>
-          <p class="mt-6 text-xl text-slate-700 font-light leading-relaxed">Để lại thông tin để chuyên gia gọi điện tư vấn lộ trình phù hợp nhất cho bé.</p>
+          <p class="mt-6 text-xl text-slate-700 font-light leading-relaxed">Để lại thông tin để chuyên gia gọi điện tư
+            vấn lộ trình phù hợp nhất cho bé.</p>
           <ul class="mt-10 space-y-5">
-            <li class="flex items-center gap-4 text-lg font-medium"><span class="w-6 h-6 bg-mv_green rounded-full flex items-center justify-center text-xs">✓</span> Tư vấn 1-1 miễn phí</li>
-            <li class="flex items-center gap-4 text-lg font-medium"><span class="w-6 h-6 bg-mv_orange-500 rounded-full flex items-center justify-center text-xs text-white">✓</span> Nhận cẩm nang Mắt Khỏe</li>
+            <li class="flex items-center gap-4 text-lg font-medium"><span
+                class="w-6 h-6 bg-mv_green rounded-full flex items-center justify-center text-xs">✓</span> Tư vấn 1-1
+              miễn phí</li>
+            <li class="flex items-center gap-4 text-lg font-medium"><span
+                class="w-6 h-6 bg-mv_orange-500 rounded-full flex items-center justify-center text-xs text-white">✓</span>
+              Nhận cẩm nang Mắt Khỏe</li>
           </ul>
         </div>
-        
+
         <form class="p-12 lg:p-16 space-y-6 bg-white">
           <div>
-            <label class="block text-sm font-bold text-mv_blue-900 mb-2 uppercase tracking-wide">Họ tên phụ huynh</label>
-            <input type="text" class="w-full px-5 py-3 rounded-xl border-2 border-slate-100 focus:border-mv_blue-600 outline-none transition bg-slate-50" placeholder="Nguyễn Văn A">
+            <label class="block text-sm font-bold text-mv_blue-900 mb-2 uppercase tracking-wide">Họ tên phụ
+              huynh</label>
+            <input type="text"
+              class="w-full px-5 py-3 rounded-xl border-2 border-slate-100 focus:border-mv_blue-600 outline-none transition bg-slate-50"
+              placeholder="Nguyễn Văn A">
           </div>
           <div>
             <label class="block text-sm font-bold text-mv_blue-900 mb-2 uppercase tracking-wide">Số điện thoại</label>
-            <input type="tel" class="w-full px-5 py-3 rounded-xl border-2 border-slate-100 focus:border-mv_blue-600 outline-none transition bg-slate-50" placeholder="090x xxx xxx">
+            <input type="tel"
+              class="w-full px-5 py-3 rounded-xl border-2 border-slate-100 focus:border-mv_blue-600 outline-none transition bg-slate-50"
+              placeholder="090x xxx xxx">
           </div>
-          <button type="submit" class="w-full py-5 bg-mv_orange-500 text-white text-xl font-bold rounded-2xl hover:bg-mv_orange-600 shadow-xl transition-all duration-300 uppercase tracking-widest">
+          <button type="submit"
+            class="w-full py-5 bg-mv_orange-500 text-white text-xl font-bold rounded-2xl hover:bg-mv_orange-600 shadow-xl transition-all duration-300 uppercase tracking-widest">
             Bắt đầu hành trình ngay
           </button>
         </form>
@@ -198,44 +262,45 @@
 
   <script>
     const eyeContainers = document.querySelectorAll(".eye-container");
-    
+
     document.addEventListener("mousemove", (e) => {
       eyeContainers.forEach((eye) => {
         const pupil = eye.querySelector(".pupil");
         const rect = eye.getBoundingClientRect();
-        
+
         // Tâm của con mắt
         const eyeX = rect.left + rect.width / 2;
         const eyeY = rect.top + rect.height / 2;
-        
+
         // Khoảng cách từ chuột đến tâm mắt
         const dx = e.clientX - eyeX;
         const dy = e.clientY - eyeY;
-        
+
         // Tính góc
         const angle = Math.atan2(dy, dx);
-        
+
         // Giới hạn vùng di chuyển của con ngươi (pupil)
         // Độ rộng mắt là 96px (w-24), con ngươi là 40px (w-10)
         // Bán kính di chuyển an toàn khoảng 15-20px
-        const maxMove = 18; 
-        
+        const maxMove = 18;
+
         const targetX = Math.cos(angle) * maxMove;
         const targetY = Math.sin(angle) * maxMove;
-        
+
         // Hiệu ứng mượt (Easing)
         const currentTransform = pupil.style.transform || "translate(0px, 0px)";
         const match = currentTransform.match(/translate\(([^px]+)px,\s*([^px]+)px\)/);
-        
+
         let curX = match ? parseFloat(match[1]) : 0;
         let curY = match ? parseFloat(match[2]) : 0;
-        
+
         const finalX = curX + (targetX - curX) * 0.15;
         const finalY = curY + (targetY - curY) * 0.15;
-        
+
         pupil.style.transform = `translate(${finalX}px, ${finalY}px)`;
       });
     });
   </script>
 </body>
+
 </html>
